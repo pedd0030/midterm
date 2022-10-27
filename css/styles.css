@@ -4,12 +4,12 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, ul,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -49,15 +49,108 @@ table {
 
 
 /* my styles */
-
-
 body{ 
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    width: 1025px;
+    width: 1024px;
     background-color: #d4e9e7;
     margin: 0 auto;
+}
+
+.navigation {
+    text-align: center;
+	font-size: 125%;
+    border-right: 1px solid black;
+    height: 15px;
+    padding-top: 16px;
+    padding-bottom: 26px;
+	width: 335px;
+	display: inline-block;
+}
+
+.navigation:last-child {
+    border-right: none;
+}
+
+h1 {
+	font-size: 400%;
+	font-weight: lighter;
+	width: 100%;
+	text-align: center;
+	color: white;
+	position: absolute;
+	right: 5px;
+	top: 165px;
+	
+  }
+
+  h2 {
+	font-size: 30px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 13px;
+  }
+  h3 {
+	font-size: 30px;
+	padding-left: 13px;
+	padding-bottom: 15px;
+  }
+  .smallstar {
+	width: 300px;
+	height: 300px;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-bottom: 30px;
+	float: left;
+  }
+  .bodytext{
+	padding-left: 13px;
+	padding-bottom: 40px;
+	line-height: 1.5;
+  }
+
+.facts{
+	padding-left: 16px;
+	font-weight: 600;
+	list-style: disc;
+	list-style-position: inside;
+}
+h4 {
+	padding-top: 40px;
+	padding-left: 13px;
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+form {
+	width: 980px;
+  height: 440px;
+  border: 2px solid black;
+ padding-left: 13px;
+ margin-left: 13px;
+  line-height: 1.6;
+
+}
+h5 {
+text-align: right;
+padding-right: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.inputbox {
+	width: 98%;
+}
+.inputbutton {
+	line-height: 1.6;
+}
+input[type=submit] {
+	border-radius: 5px;
+    list-style: black;
+    width: 80px;
+    height:50px;
+    background: none;
 }
