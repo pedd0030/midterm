@@ -111,9 +111,10 @@ h1 {
 	padding-bottom: 40px;
 	line-height: 1.5;
   }
-
+/* STARFISH FACT STYLING */
 .facts{
 	padding-left: 16px;
+	padding-top: 15px;
 	font-weight: 600;
 	list-style: disc;
 	list-style-position: inside;
@@ -140,7 +141,7 @@ padding-top: 50px;
 padding-bottom: 50px;
 }
 
-
+/* USER INPUT STYLING */
 .inputbox {
 	width: 98%;
 }
